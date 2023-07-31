@@ -1,0 +1,43 @@
+.scissors{
+    background-image: url(../img/image\ 2.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: content-box;
+    background-size: auto;
+
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.text{
+    font-size: 40px;
+    text-decoration-line: underline;
+
+    position: absolute;
+    top: 5%;
+}
+
+.textAboutUs{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+
+    color: var(--nude);
+    word-wrap: break-word;
+    width: 50%;
+    font-size: 32px;
+    float: right;
+}
+
+.lak{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.imgBubbleOne{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}

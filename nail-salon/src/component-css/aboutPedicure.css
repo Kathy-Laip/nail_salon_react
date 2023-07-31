@@ -1,0 +1,46 @@
+.textPedicure{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+    color: var(--nude);
+    word-wrap: break-word;
+    width: 60%;
+    font-size: 32px;
+    float: right;
+    font-weight: bold;
+}
+
+.img1{
+    object-fit: fill;
+    width: 25%;
+    height: 90%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.img2{
+    object-fit: fill;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+    top: 70%;
+    right: 25%;
+}
+
+.btnappointment{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+
+    font-size: 32px;
+    font-style: italic;
+
+    border-radius: 50px;
+    border: none;
+    background: var(--nude);
+
+    padding: 30px 50px;
+    width: 40%;
+}

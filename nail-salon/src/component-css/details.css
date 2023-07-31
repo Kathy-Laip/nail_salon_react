@@ -1,0 +1,110 @@
+.container{
+    height: 580px;
+    position: relative;
+}
+
+.scissors{
+    background-image: url(../img/image\ 2.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: content-box;
+    background-size: auto;
+
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.textAboutUs{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+
+    color: var(--nude);
+    word-wrap: break-word;
+    width: 50%;
+    font-size: 32px;
+    float: right;
+}
+
+.lak{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.manicure{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+
+    width: 30%;
+    height: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.manicureWith{
+    position: absolute;
+    top: 23%;
+    left: 32%;
+
+    width: 35%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.manicureJapan{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+
+    width: 35%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBubbleOne{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    font-size: 40px;
+    text-decoration-line: underline;
+
+    position: absolute;
+    top: 5%;
+}
+
+.textTwo{
+    color: var(--nude);
+    position: absolute;
+    top: 25%;
+    word-wrap: break-word;
+    width: 80%;
+    text-align: left;
+    font-size: 30px;
+}
+
+.btnMore{
+    position: absolute;
+    bottom: 10%;
+
+    font-size: 20px;
+    font-style: italic;
+
+    border-radius: 50px;
+    border: none;
+    background: var(--nude);
+
+    padding: 15px 30px;
+    width: 60%;
+}

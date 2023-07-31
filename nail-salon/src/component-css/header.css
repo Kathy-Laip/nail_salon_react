@@ -1,0 +1,73 @@
+.homePage{
+    background-image: url(../img/image\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: content-box;
+    background-size: cover;
+
+    font-size: 38px;
+    font-weight: 200;
+}
+
+.text{
+    font-size: 40px;
+    text-decoration-line: underline;
+
+    position: absolute;
+    top: 5%;
+}
+
+.services{
+    position: absolute;
+    top: 2%;
+    left: 12%;
+}
+
+.price{
+    position: absolute;
+    top: 2%;
+    left: 28%;
+}
+
+.aboutUs{
+    position: absolute;
+    top: 2%;
+    left: 42%;
+}
+
+.pedicure{
+    position: absolute;
+    top: 2%;
+    left: 55%;
+}
+
+.contacts{
+    position: absolute;
+    top: 2%;
+    right: 12%;
+}
+
+.name{
+    font-size: 63px;
+    font-style: inherit;
+
+    position: absolute;
+    left: 5%;
+    top: 35%
+}
+
+.appointment{
+    position: absolute;
+    top: 54%;
+    left: 7%;
+
+    font-size: 32px;
+    font-style: italic;
+
+    border-radius: 50px;
+    border: none;
+    background: var(--nude);
+
+    padding: 30px 50px;
+    width: 40%;
+}
