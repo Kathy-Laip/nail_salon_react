@@ -1,6 +1,7 @@
 import React from "react";
 import Board from "./whiteBord";
-import AboutUs2 from "./aboutUs";
+import AboutUs from "./aboutUs";
+import Main from "./main";
 
 class Order extends React.Component{
     constructor(options){
@@ -11,7 +12,8 @@ class Order extends React.Component{
         return(
             <>
                 <Board/>
-                <AboutUs2 text='Выбор услуг'/>
+                <AboutUs text='Выбор услуг'/>
+                <Main/>
             </>
         )
     }

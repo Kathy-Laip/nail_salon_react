@@ -8,8 +8,14 @@ class Board extends React.Component{
     }
 
     render(){
+        let wH = window.screen.height + 'px'
+        let wW = window.screen.width + 'px'
+        let styles = {
+            width:wW,
+            height:wH
+        }
         return(
-            <div className={style.whiteBoard}>
+            <div className={style.whiteBoard} style={styles}>
                 <div className="title">
                     Запись
                 </div>
